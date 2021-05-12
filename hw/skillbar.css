@@ -1,0 +1,199 @@
+.program {
+	font-size: 18pt;
+	width: 150px;
+	height: 38px;
+	background-color: #C5DAD1;
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 100px;
+	transition: all .3s linear;
+}
+
+.allskill {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+#skill {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	text-align: left;
+	padding: 10px 0px 10px 600px;
+}
+
+#skill2 {
+	width: 600px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 10px 0px 10px 1000px;
+}
+
+.bar {
+	position: relative;
+	left: 0;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.containerA {
+	width: 50%;
+	background-color: #B1D3C5;
+	color: black;
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 5px;
+	position: relative;
+	left: 5%;
+	text-align: center;
+	border: 1px solid #B1D3C5;
+	top: 1.5px;
+}
+
+@keyframes java1bar {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 85%;
+	}
+}
+
+@keyframes html1bar {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 80%;
+	}
+}
+
+@keyframes jsp1bar {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 80%;
+	}
+}
+
+@keyframes c1bar {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 75%;
+	}
+}
+
+.skill {
+	background-color: #E1F1E7;
+	position: relative;
+	border-radius: 5px;
+}
+
+#java {
+	width: 85%;
+	animation-name: java1bar;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+#html {
+	width: 80%;
+	animation-name: html1bar;
+	animation-duration: 3.5s;
+	animation-iteration-count: 1;
+}
+
+#jsp {
+	width: 80%;
+	animation-name: jsp1bar;
+	animation-duration: 3.7s;
+	animation-iteration-count: 1;
+}
+
+#c {
+	width: 75%;
+	animation-name: c1bar;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes word {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 85%;
+	}
+}
+
+@keyframes vedio {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 80%;
+	}
+}
+
+@keyframes pb {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 75%;
+	}
+}
+
+@keyframes sai {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: 70%;
+	}
+}
+
+#word {
+	width: 85%;
+	animation-name: word;
+	animation-duration: 3s;
+	animation-iteration-count: 1;
+}
+
+#vedio {
+	width: 80%;
+	animation-name: vedio;
+	animation-duration: 3.5s;
+	animation-iteration-count: 1;
+}
+
+#pb {
+	width: 75%;
+	animation-name: pb;
+	animation-duration: 3.7s;
+	animation-iteration-count: 1;
+}
+
+#sai {
+	width: 70%;
+	animation-name: sai;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+}

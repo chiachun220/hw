@@ -1,0 +1,149 @@
+.accordion {
+  background-color: #E9E0CF;
+  color: #444;
+  cursor: pointer;
+  width: 700px;
+  border: none;
+  outline: none;
+  padding: 18px;
+  font-size: 15px;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  margin-top: 1700px;
+  border: 1px solid #E9CEB9;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #F2EEE5;
+  max-height: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  width: 665px;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion1 {
+  background-color: #E9E0CF;
+  color: #444;
+  cursor: pointer;
+  width: 700px;
+  border: none;
+  outline: none;
+  padding: 18px;
+  font-size: 15px;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  border: 1px solid #E9CEB9;
+}
+
+.active,
+.accordion1:hover {
+  background-color: #ccc;
+}
+
+.accordion1:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel1 {
+  padding: 0 18px;
+  background-color: #F2EEE5;
+  max-height: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  transition: max-height 0.2s ease-out;
+  width: 665px;
+}
+
+.accordion2 {
+  background-color: #E9E0CF;
+  color: #444;
+  cursor: pointer;
+  width: 700px;
+  border: none;
+  outline: none;
+  padding: 18px;
+  font-size: 15px;
+  transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  margin-top: 0px;
+  border: 1px solid #E9CEB9;
+}
+
+.active,
+.accordion2:hover {
+  background-color: #ccc;
+}
+
+.accordion2:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+
+.panel2 {
+  padding: 0 18px;
+  background-color: #F2EEE5;
+  max-height: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 550px;
+  transition: max-height 0.2s ease-out;
+  width: 665px;
+}
